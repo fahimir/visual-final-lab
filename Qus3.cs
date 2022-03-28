@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -48,16 +48,15 @@ namespace LabFinalProblemPractice
     }
     class Qus3
     {
-        public static void StudentTest()
+        public static void Main(String[] args)
         {
             Student std = new Student();
             std.Name = "Maruf";
             std.AverageMark = 80;
             std.EligibleToEnroll();
-        }
+        
 
-        public static void ProfessorTest()
-        {
+        
             Professor pro = new Professor();
             pro.Name = "Shakil Ahmed";
             pro.Salary = 99999999;
